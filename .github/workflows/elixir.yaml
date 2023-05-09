@@ -8,7 +8,7 @@ on:
   push:
     branches: [ "master" ]  # adapt branch for project
   pull_request:
-    branches: [ "master" ]  # adapt branch for project
+    branches: [ "master" ]  # adapt branch for project, run checks on PR that targets the master branch
 
 # Sets the ENV `MIX_ENV` to `test` for running tests
 env:
